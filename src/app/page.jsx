@@ -10,12 +10,12 @@ import React from "react";
 const Home = () => {
   return (
     <main>
-      {/* <Hero/> */}
-      {/* <WhatWeDo /> */}
-      {/* <Works/> */}
-      {/* <AboutUs/> */}
-      {/* <ProjectsImagesCarousel/> */}
-      <OurClients/>
+      <Hero />
+      <WhatWeDo />
+      <Works />
+      <AboutUs />
+      <ProjectsImagesCarousel />
+      <OurClients />
       <div className="py-20 bg-primary overflow-x-hidden">
         <div className="text-primary font-semibold font-teko bg-white text-6xl py-5 -rotate-2 ">
           <VelocityScroll

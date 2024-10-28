@@ -6,7 +6,7 @@ const Card = ({ service }) => {
   const { img, title } = service || {};
   return (
     <MagicCard>
-      <div className="bg-gradient-to-b from-[#1D3E6B] to-transparent p-8 sm:p-10 w-[100vw] sm:w-auto flex flex-col  items-center gap-4 text-center transition-all duration-300 ease-in-out hover:scale-105 h-[350px]">
+      <div className="bg-gradient-to-b from-[#1D3E6B] to-transparent p-10 flex flex-col items-center gap-4 text-center transition-all duration-300 ease-in-out hover:scale-105 h-[350px] w-full">
         <div className="rounded-full bg-primary p-5 w-32 h-32  flex justify-center items-center">
           <Image
             height={106}

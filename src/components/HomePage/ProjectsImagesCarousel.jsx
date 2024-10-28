@@ -29,7 +29,7 @@ export default function ProjectsImagesCarousel() {
   return (
     <div className="bg-primary">
       <div className="overflow-x-hidden">
-        <div className="pb-20 space-y-8">
+        <div className="pb-12 sm:pb-14 lg:pb-16 2xl:pb-20 space-y-5">
           {/* Marquee: Left to Right */}
           <Marquee
             className="w-full"

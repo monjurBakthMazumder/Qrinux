@@ -25,21 +25,20 @@ const WhatWeDo = () => {
   ];
 
   return (
-    <section className="pt-20 pb-14 px-4 bg-[#163359] relative z-50">
+    <section className="bg-[#163359] relative z-50 py-12 sm:py-14 lg:py-16 2xl:py-20">
       <Custom_Container>
-        <div className="flex justify-between items-center">
-          <div>
+        <div className="flex flex-col sm:flex-row justify-between items-start">
+          <div className="flex-1"> 
             <SubHeading>Our Services</SubHeading>
             <Heading>What We Do</Heading>
           </div>
-          <div>
+          <div className="flex-1">
             <Description>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,{" "}
-              <br className="" /> lor dolore
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,  lor dolore
             </Description>
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 md:gap-8 gap-10 mt-10 mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-6 sm:mt-7 lg:mt-8 2xl:mt-10">
           {services.map((service, i) => (
             <Card key={i} service={service} />
           ))}

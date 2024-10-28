@@ -40,44 +40,4 @@ export const ourClients = [
     description:
       "David Lee, founder of GreenLife, has a deep commitment to promoting eco-friendly lifestyles and sustainable practices. Through GreenLife, David provides products and resources that help individuals and businesses reduce their environmental impact. His vision for a greener future drives every aspect of the company, from product design to customer engagement. David believes that small, everyday choices can lead to significant environmental improvements. He frequently collaborates with environmental groups to advocate for sustainability, making GreenLife a trusted brand for environmentally conscious consumers. His dedication has earned GreenLife a loyal following and a positive industry reputation.",
   },
-  {
-    id: 6,
-    name: "Jessica Garcia",
-    title: "Manager, FitPulse",
-    image: img,
-    description:
-      "Jessica Garcia, Manager at FitPulse, is passionate about health and wellness. With a background in sports science, she brings a wealth of knowledge to her role, ensuring that FitPulse’s offerings are both scientifically sound and accessible to users. Jessica has been instrumental in developing programs that address various fitness levels, promoting inclusivity in wellness. Her leadership style emphasizes empathy and collaboration, which has fostered a supportive and motivated team. Jessica’s work at FitPulse is not just about fitness; it’s about helping individuals achieve a balanced and healthy lifestyle, making a lasting impact on clients’ lives.",
-  },
-  {
-    id: 7,
-    name: "Daniel White",
-    title: "Director, MindHub",
-    image: img,
-    description:
-      "Daniel White, Director of MindHub, is dedicated to improving mental health resources and support. His approach combines innovative technology with empathetic care, creating solutions that make mental health support more accessible and personalized. Daniel believes that everyone deserves access to quality mental health care, which drives his efforts in product development and service expansion. Under his leadership, MindHub has launched several successful programs and initiatives aimed at breaking the stigma around mental health. Daniel’s commitment to mental wellness and compassionate leadership has earned him respect and admiration within the mental health community.",
-  },
-  {
-    id: 8,
-    name: "Laura Harris",
-    title: "Head of Marketing, NovaHealth",
-    image: img,
-    description:
-      "Laura Harris, Head of Marketing at NovaHealth, is an expert in healthcare branding and marketing strategies. She has transformed NovaHealth’s brand by focusing on patient-centric messaging and transparency. Laura's marketing strategies emphasize the importance of trust and empathy in healthcare, making NovaHealth a leading choice for patients. Her innovative campaigns have successfully reached diverse audiences, helping to grow the company’s market share significantly. Laura is dedicated to enhancing patient education through accessible information, empowering individuals to make informed health decisions. Her work continues to set new standards for marketing in the healthcare industry.",
-  },
-  {
-    id: 9,
-    name: "Chris Wilson",
-    title: "CEO, FinTechy",
-    image: img,
-    description:
-      "Chris Wilson, CEO of FinTechy, is a dynamic leader in the financial technology sector. With his vast expertise in digital finance, he has guided FinTechy to the forefront of innovation in the industry. Chris is a firm believer in transparency and security, key pillars of FinTechy’s operations, which are reflected in the company's services. His commitment to simplifying financial processes for users has made FinTechy a trusted platform for financial solutions. Chris's forward-thinking vision and emphasis on user experience have been instrumental in FinTechy's success and set a high standard for others in the field.",
-  },
-  {
-    id: 10,
-    name: "Sophia Lopez",
-    title: "Co-Founder, EduSpark",
-    image: img,
-    description:
-      "Sophia Lopez, Co-Founder of EduSpark, is an educational innovator focused on creating accessible learning opportunities through digital platforms. She believes in the transformative power of education and strives to make learning available to everyone, regardless of their background. EduSpark’s mission, driven by Sophia’s vision, is to harness technology for effective learning experiences. Her work includes developing tools that empower educators and engage students in meaningful ways. Sophia’s commitment to education has earned her widespread respect, and her dedication to EduSpark’s mission makes her a true leader in the ed-tech space.",
-  },
 ];

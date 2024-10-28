@@ -9,8 +9,8 @@ import IconCloudDemo from "../ui/icon-cloud";
 export default function Hero() {
   return (
     <Custom_Container>
-      <div className="flex  items-center justify-center gap-10 lg:h-screen 2xl:h-auto 2xl:py-32">
-        <div className="max-w-[50%]">
+      <div className="flex flex-col lg:flex-row gap-10 my-12 sm:my-14 lg:my-16 2xl:my-20">
+        <div className="flex-1">
           <Heading>
             Your Vision, Our Tech,
             <br />
@@ -32,7 +32,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-blue-500 scale-0 transition-transform duration-500 ease-in-out  rounded-lg opacity-10"></div>
           </Button>
         </div>
-        <div>
+        <div className="flex-1">
           <IconCloudDemo />
         </div>
       </div>
