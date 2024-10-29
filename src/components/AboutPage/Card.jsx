@@ -12,12 +12,14 @@ const Card = ({ team }) => {
           height={353}
           src={img}
           alt={name}
-          className="bg-bg5 p-5 pb-0 w-full rounded-lg"
+          className="w-full"
         />
-        <h1 className="text-xl font-semibold text-white font-Inter mt-4 mb-3">
+        <h1 className="text-2xl font-semibold text-white font-inter mt-4 mb-1">
           {name}
         </h1>
-        <h2 className="text-textColor6 font-Inter mb-5">{designation}</h2>
+        <h2 className="font-inter text-[#F7FAFF]">
+          {designation}
+        </h2>
       </div>
     </Link>
   );

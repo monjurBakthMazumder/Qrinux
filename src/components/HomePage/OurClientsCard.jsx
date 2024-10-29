@@ -9,7 +9,7 @@ export default function OurClientsCard({ client }) {
       </p>
       <hr className="mt-5 mb-8" />
       <div className="flex gap-4  items-center">
-        <frame className="h-14">
+        <div className="h-14">
           <Image
             height={490}
             width={350}
@@ -17,7 +17,7 @@ export default function OurClientsCard({ client }) {
             alt=""
             className="h-full w-fit object-cover rounded-full"
           />
-        </frame>
+        </div>
         <div className=" ">
           <h1 className="text-xl font-medium">{name}</h1>
           <p className="text-lg font-light">{title}</p>
