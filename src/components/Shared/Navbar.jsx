@@ -10,7 +10,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="bg-primary py-5 px-4 text-white font-Jost relative z-50">
+    <div className="bg-primary py-5 px-4 text-white font-Jost relative  z-50">
       <Custom_Container>
         <div className="flex justify-between items-center gap-5">
           {/* Logo Section - Always Visible */}
